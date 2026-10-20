@@ -12,17 +12,15 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.object_detection_poc.feature.detection.DetectionScreen
-import com.example.object_detection_poc.ui.theme.ObjectdetectionpocTheme
+import com.example.object_detection_poc.ui.theme.ObjectDetectionPocTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            ObjectdetectionpocTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    DetectionScreen()
-                }
+            ObjectDetectionPocTheme {
+                DetectionScreen()
             }
         }
     }
