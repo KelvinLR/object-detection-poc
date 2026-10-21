@@ -1,7 +1,5 @@
 package com.example.object_detection_poc.feature.detection
 
-import androidx.camera.compose.cameraX
-import androidx.camera.core.CameraXConfig
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
